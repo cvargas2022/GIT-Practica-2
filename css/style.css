@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+	font-family: "Inter", sans-serif;
+}
+h2 {
+    font-size: 40px;
+    color: #0A2268;
+    text-transform: uppercase;
+    text-align: center;
+	font-family: "Inter", sans-serif;
+}
+p {
+    font-size: 18px;
+    color: #000;
+	font-family: "Inter", sans-serif;
+}
+body {
+    margin: 0;
+	font-family: "Inter", sans-serif;
+}
+
+header nav a {
+	font-family: "Inter", sans-serif;
+    color: #0A2268;
+    font-weight: 600;
+    text-decoration: auto;
+    font-size: 18px;
+	    padding: 0 30px;
+}
+html header nav a.app {
+    color: #fff !important;
+    background-color: #0A2268 !important;
+	padding: 10px;
+    border-radius: 10px;
+}
+header div#content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 35px 0;
+}
+
+
+section#section-1 h1 {
+    display: none;
+}
+section#section-3 {
+    background-color: #0A2268;
+}
+section#section-3 form {
+    max-width: 970px;
+    width: 970px;
+    margin: 0 auto;
+}
+.col-50-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-50-input input {
+    width: 47%;
+}
+textarea#contacto, input[type="submit"] {
+    width: 100%;
+}
+
+
+.col-50 {
+    max-width: 48%;
+}
+.content-section-2 {
+    display: flex;
+	    justify-content: space-between;
+}
+.content-section-2 p {
+    text-align: justify;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+
+
+section#section-3 h2 {
+    color: #fff;
+}
+
+
+
+div#banner-destock img {
+    max-width: 100%;
+}
+div#banner-mobile img {
+    max-width: 100%;
+}
+footer section#Copyright  p {
+    font-size: 16px;
+    text-align: center;
+		    margin: 0;
+}
+footer  p {
+	    COLOR: #FFF;
+	    margin: 0;
+}
+footer {
+    background-color: #000000;
+}
+section#content-footer {
+    display: flex;
+    justify-content: space-between;
+}
+section#Copyright {
+    BACKGROUND-COLOR: #171717;
+	padding: 25px 0;
+}
+
+
+@media (min-width: 768px) {
+ div#banner-mobile {
+    display: none;
+}
+	}
+
+@media (max-width: 767px) {
+  div#banner-destock {
+    display: none;
+}
+h1 {
+    font-size: 34px;
+}
+footer p {
+    font-size: 14px;
+    text-align: center;
+}
+}

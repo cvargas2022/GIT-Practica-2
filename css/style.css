@@ -15,6 +15,9 @@ p {
     color: #000;
 	font-family: "Inter", sans-serif;
 }
+strong,input, txarea {
+	font-family: "Inter", sans-serif;
+}
 body {
     margin: 0;
 	font-family: "Inter", sans-serif;
@@ -45,13 +48,55 @@ header div#content-header{
 section#section-1 h1 {
     display: none;
 }
+section#section-2 {
+    padding: 100px 0;
+}
+
+
+
 section#section-3 {
     background-color: #0A2268;
+	    padding: 120px 0;
 }
 section#section-3 form {
     max-width: 970px;
     width: 970px;
     margin: 0 auto;
+}
+section#section-3 form input {
+	max-width: 45% !important;
+    height: 74px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-left: 30px;
+}
+textarea#contacto  {
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+	    width: 97% !important;
+    font-size: 20px;
+    padding-left: 30px;
+	resize: none;
+}
+section#section-3 input[type="submit"]:hover {
+    background-color: #171717;
+}
+.col-3 img:hover {
+    opacity: 0.8;
+}
+section#section-3  input[type="submit"] {
+	cursor: pointer;
+	    padding: 0;
+    margin-bottom: 0;
+	    min-width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px !important;
+}
+textarea#contacto, section#section-3 form input {
+    margin-bottom: 40px;
 }
 .col-50-input {
     display: flex;
@@ -62,10 +107,13 @@ section#section-3 form {
     width: 47%;
 }
 textarea#contacto, input[type="submit"] {
+	padding-top: 30px;
     width: 100%;
 }
 
-
+section#content-footer p {
+    font-size: 20px;
+}
 .col-50 {
     max-width: 48%;
 }
@@ -81,8 +129,12 @@ textarea#contacto, input[type="submit"] {
     margin: 0 auto;
     width: 1400px;
 }
-
-
+.col-2 p {
+    line-height: 1.5;
+}
+.col-3 p {
+    margin-bottom: 20px;
+}
 
 section#section-3 h2 {
     color: #fff;
@@ -111,6 +163,8 @@ footer {
 section#content-footer {
     display: flex;
     justify-content: space-between;
+	    align-items: center;
+    padding: 70px 0;
 }
 section#Copyright {
     BACKGROUND-COLOR: #171717;
@@ -125,11 +179,63 @@ section#Copyright {
 	}
 
 @media (max-width: 767px) {
+	nav {
+    display: none;
+}
+div#content-header {
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
+    padding: 20px 0 !important;
+}
+	html .container {
+	width: 100% !important;
+    max-width: 100%;
+	
+}
   div#banner-destock {
     display: none;
 }
 h1 {
     font-size: 34px;
+}
+section#section-3 form {
+    width: 85%;
+}
+section#content-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section#content-footer p {
+    font-size: 18px;
+}
+textarea#contacto {
+    width: 90% !important;
+}
+.col-3 {
+    margin-top: 35px;
+}
+.col-1 {
+    margin-bottom: 30px;
+}
+.col-50-input {
+	justify-content: center;
+    flex-wrap: wrap;
+}
+.content-section-2 {
+	padding: 0px 20px;
+    flex-wrap: wrap;
+}
+.col-50-input input,section#section-3 form input {
+    width: 95%!important;
+    max-width: 95%!important;
+}
+.col-50 {
+    max-width: 100%;
+}
+section#section-3 {
+    min-width: 100%;
 }
 footer p {
     font-size: 14px;

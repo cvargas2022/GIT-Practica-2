@@ -43,7 +43,9 @@ header div#content-header{
     align-items: center;
 	padding: 35px 0;
 }
-
+section#section-banner2 img {
+    width: 100%;
+}
 
 section#section-1 h1 {
     display: none;
@@ -55,6 +57,7 @@ section#section-2 {
 
 
 section#section-3 {
+	    margin-top: -5px;
     background-color: #0A2268;
 	    padding: 120px 0;
 }
@@ -179,6 +182,9 @@ section#Copyright {
 	}
 
 @media (max-width: 767px) {
+	.content-section-2 img {
+    width: 100%;
+}
 	nav {
     display: none;
 }
